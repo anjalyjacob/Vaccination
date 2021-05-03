@@ -1,0 +1,34 @@
+{
+  "name": "vaccination",
+  "version": "1.0.0",
+  "description": "Get Email notification if covid vaccination centers are available",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjalyjacob/Vaccination.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjalyjacob/Vaccination/issues"
+  },
+  "homepage": "https://github.com/anjalyjacob/Vaccination#readme",
+  "dependencies": {
+    "aws-sdk": "^2.790.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.9.24",
+    "mongoose-timezone": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
